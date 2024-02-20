@@ -1,3 +1,4 @@
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <Button variant="destructive">Button</Button>
             By{" "}
             <Image
               src="/vercel.svg"
